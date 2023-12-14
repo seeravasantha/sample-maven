@@ -39,7 +39,7 @@
         <name>Snapshot Repos</name>
         <url>http://34.118.243.250:8081/repository/maven-snapshot//repository/first-snapshot/</url>
     </snapshotRepository>
-</distributionManagement
+</distributionManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->

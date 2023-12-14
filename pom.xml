@@ -13,7 +13,7 @@
   <url>http://www.example.com</url>
 
   <properties>
-    <sonar.host.url>http://34.125.196.153:9000/</sonar.host.url>
+    <sonar.host.url>http://34.125.131.53:9000/</sonar.host.url>
     <sonar.login>squ_a85686ec7c090d3dd4e06a64ac3d14f621a437a2</sonar.login>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
@@ -28,18 +28,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
-      <repository>
-          <id>nexus</id>  
-          <name>Release Repos</name>
-          <url>http://34.125.48.143:8081/repository/first-release/</url>
-       </repository>
-      <snapshotRepository>
-          <id>nexus</id>
-          <name>Snapshot Repos</name>
-          <url>http://34.125.48.143:8081/repository/first-snapshot/</url>
-      </snapshotRepository>
-  </distributionManagement>
+
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
